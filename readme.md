@@ -27,7 +27,8 @@ iPad や iPhone で chromatonemini を使う場合には電源が必要ですの
 オプションにより、LED を搭載すれば写真のようにバックライト点灯させることが可能です（LEDのハンダ付けは難易度が高いので、ご注意ください）。
 
 # 外観および使用例
-Chromatic Music Lab. の [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo) をご覧ください!
+Chromatic Music Lab. の [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo) をご覧ください!  
+また、こちらに[機能詳細紹介動画](https://youtu.be/7tFm5GolF3g)がございます。
 
 # キーボードキット
 chromatonemini キーボードキットは BOOTH でお求めいただけます。  
@@ -75,7 +76,8 @@ A rotary encoder can be used to change the settings of chromatonemini by long-pr
 
 # How it looks & how it works
 Check this out!  
-Chromatic Music Lab. [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo)
+Chromatic Music Lab. [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo)  
+Detailed introduction is shown [here](https://youtu.be/7tFm5GolF3g).
 
 # Keyboard kit
 The keyboard kit is available from [BOOTH](https://3araht.booth.pm/).  
