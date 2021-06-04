@@ -51,6 +51,8 @@ chromatonemini は QMK firmware を使っています。Push request が通れ�
 
 [日本語ビルドガイド](https://github.com/3araht/chromatonemini/blob/main/docs/build.md)
 
+分かりやすい組み立てブログは[こちら](https://chromatic.jp/chromatone-mini-create/)です。  
+
 # コンタクト先:
 Twitter と YouTube はじめました。  
 http://twitter.com/3araht  
@@ -77,7 +79,7 @@ A rotary encoder can be used to change the settings of chromatonemini by long-pr
 # How it looks & how it works
 Check this out!  
 Chromatic Music Lab. [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo)  
-Detailed introduction is shown [here](https://youtu.be/7tFm5GolF3g).
+A detailed introduction is shown [here](https://youtu.be/7tFm5GolF3g).
 
 # Keyboard kit
 The keyboard kit is available from [BOOTH](https://3araht.booth.pm/).  
@@ -102,6 +104,8 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/chromatonemini/bl
 [Japanese Build Guide](https://github.com/3araht/chromatonemini/blob/main/docs/build.md)  
 Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/chromatonemini/blob/main/docs/build.md) for your language preferences. Trust me, it works quite well, more than expected.
 
+[Here](https://chromatic.jp/chromatone-mini-create/) you can find a better guide.
+Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://chromatic.jp/chromatone-mini-create/).
 
 # Contact
 If you need any help, you know where to find me.  
