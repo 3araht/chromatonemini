@@ -34,6 +34,9 @@ chromatonemini キーボードキットは BOOTH でお求めいただけます�
 [BOOTH 販売ページへのリンクはこちら](https://3araht.booth.pm/)。
 BOOTH では、chromatonemini の他、クロマチックボタンアコーディオンを模した MIDIキーボードの giabalanai、 giabaLEnai、giabaRInai、giabaRInaix2 がお求めいただけます。
 
+また、遊舎工房さんでも取り扱っていただけるようになりました！！！  
+[遊舎工房 chromatonemini 販売ページ](https://shop.yushakobo.jp/collections/keyboard/products/consign_chromatonemini)  
+
 # ファームウェア
 
 chromatonemini は QMK firmware を使っています。Push request が通れば下記からダウンロードできると思います:
@@ -78,6 +81,10 @@ Chromatic Music Lab. [CHROMATONE-MINI【DEMO】](https://youtu.be/WQA9r8nkZjo)
 The keyboard kit is available from [BOOTH](https://3araht.booth.pm/).  
 
 Click [here](https://www.tenso.com/en/static/lp_shop_booth) for BOOTH overseas shipping!
+
+It is available from Yushakobo as well!!!  
+[Yushakobo chromatonemini page](https://shop.yushakobo.jp/collections/keyboard/products/consign_chromatonemini)  
+
 
 # Firmware
 
