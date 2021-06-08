@@ -132,7 +132,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //  Enable suspend mode.
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED true
 
-// //  enable below to shrink the firmware size ( -1974 bytes )
+//  enable below to shrink the firmware size ( -1974 bytes )
 // #    define REDUCE_RGB_MATRIX_EFFECTS
 
 //  enable below to shrink the firmware size ( -1574 bytes )
