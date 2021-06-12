@@ -124,13 +124,50 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ## 3 ##
 ## リセットスイッチの取付け ##
 白い四角い枠のシルクに沿って裏側に取り付けます。浮いたり曲がった状態で実装しないようにマスキングテープなどで予め仮止めしてから半田付けするとミスが少なくなります。  
-<img width="700" alt="ResetSW" src="https://github.com/3araht/chromatonemini/blob/main/pictures/ResetSw_r01.jpg">
+<img width="700" alt="ResetSW" src="https://github.com/3araht/chromatonemini/blob/main/pictures/ResetSW_r01.jpg">
 
 ## 4 ##
 ## Pro Micro 用ピンヘッダの取付け ##
 **※コンスルー（スプリングピンヘッダ）を使う場合はこの工程は不要です。**
 白い四角い枠のシルクに沿って裏側にピンヘッダを取り付けます。
 **この時点で Pro Micro を取り付けてはいけません。一度半田付けしてしまった Pro Micro を取り外すのは至難の技です。充分ご注意ください。**
+
+## 4.5 (2021/06/12 追記) ##
+## サスティンペダルを接続するための改造 ##
+rev.02 でサスティンペダルがつけられるようになりました。
+rev.01 の基板をお持ちの方でも、配線とTRRS コネクタをご用意いただければ rev.02 同様にサスティンペダルが使えるようになります。
+
+### 別途用意いただく必要のあるもの
+| パーツ名 |  個数  |  備考  |
+|--------|-------|-------|  
+|TRRS コネクタ|1個|サスティンペダル接続用|
+|サスティンペダル|1台|ノーマリオフタイプ。念の為、極性変換スイッチつきのものをおすすめします。|
+|3.5 mm ミニジャック変換ケーブル|1本|サスティンペダルのモノラルジャックを TRRS コネクタに刺さるように変換します。|
+
+※ ここではTRRSコネクタ = 3.5 mm ミニジャックを経由し、ミニジャックから6.35 mm のジャックに変換するケーブルを使ってサスティンペダルを接続していますが、直接 6.35 mm ジャックが刺さるコネクタを使えば、変換ケーブルが不要になります。  
+
+サスティンペダルを配線するのは下の図の黄色丸で囲った2箇所。  
+TP4 の "RESERVED" と D38 の K 側 につなぎます。
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization01.jpg">  
+
+TRRSコネクタの Sleeve と Tip の端子に配線します。配線は 8cm くらい引き出しましたが、お好みで調整してください。
+少し長めにしておくと、あとでスペーサに巻き付けて引っ張られたときの対策になります。  
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization02.jpg">  
+
+TRRS コネクタの半田付け拡大図  
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization03.jpg">  
+
+TP4 と D38 の K 端子に半田付けします。  
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization04.jpg">  
+
+このようにスペーサに巻き付けておくと半田付けした部分を引っ張られずに済みます。  
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization05.jpg">  
+
+ボトムプレートを取り付ける前に動作チェックします。  
+<img width="700" alt="SustainPedalCustomization" src="https://github.com/3araht/chromatonemini/blob/main/pictures/r01_SustainPedalCustomization06.jpg">  
+
+最新のファームウェアはこの TP4 をサスティンペダルとして認識しますので、最新ファームウェアを書き込んでいない場合はファームウェアを更新します。
+
 
 
 ## 5 ##
