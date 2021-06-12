@@ -11,7 +11,7 @@ rev.02 では、以下が変更になっています
 「辛口」のSK6812miniに加え、「中辛」のSK6812mini-Eが実装できるようになりました。混在可能なのでお好みの「辛さ」調整が可能にw
 
 ※ rev.01 の基板をお持ちの方で、サスティンペダルを接続するための改造方法について、rev.01 のビルドガイドに追記しました。  
-詳細は[こちら](https://github.com/3araht/chromatonemini/blob/main/docs/build_r01.md#4.5) をご覧ください。  
+詳細は[こちら](https://github.com/3araht/chromatonemini/blob/main/docs/build_r01.md#45) をご覧ください。  
 
 
 
