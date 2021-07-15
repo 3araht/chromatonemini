@@ -3,7 +3,7 @@
     "vendorId": "0xFEED",
     "productId": "0xF4B4",
     "lighting": "none",
-    "matrix": { "rows": 6, "cols": 7 },
+    "matrix": { "rows": 6, "cols": 8 },
     "layouts": {
         "labels": [
             "Sustain Pedal",
