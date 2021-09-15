@@ -1,8 +1,4 @@
-<p align=center>
-<img width="900" alt="chromatonemini_logo" src="https://github.com/3araht/chromatonemini/blob/main/pictures/chromatone-mini.png">
-
-<img width="700" alt="chromatonemini overview" src="https://github.com/3araht/chromatonemini/blob/main/pictures/chromatonemini_overview.jpg">
-</p>
+![chromatonemini](https://github.com/3araht/chromatonemini/blob/main/pictures/chromatonemini_toppage.jpg)
 
 # chromatonemini キーボード
 chromatonemini （クロマトーンミニ）キーボードは3オクターブ分（37音）を網羅したシンプルデザインのクロマトーン MIDI キーボードです。
