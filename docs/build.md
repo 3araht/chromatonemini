@@ -380,11 +380,11 @@ git checkout c66df16 quantum/process_keycode/process_midi.c
 ## ボトムプレートの組み立て ##
 全てのキースイッチが正しく動作するのを確認したら、基板に取り付けたスペーサーにボトムプレートを固定します。
 ボトムプレートの図の黄色丸の位置 26 箇所に M2 のねじでを挿入して固定します。  
-<img width="700" alt="spacer" src="https://github.com/3araht/chromatonemini/blob/main/pictures/BottomPlate_r01.jpg">  
+<img width="700" alt="spacer" src="https://github.com/3araht/chromatonemini/blob/main/pictures/BottomPlate_r02.jpg">  
 
 ネジ止めは、たすき掛けで均一に締めつけますが、強く締めつけすぎないようにします。
 
 黄色丸の位置 15 箇所にクッションシールを取り付けます。  
-<img width="700" alt="feet" src="https://github.com/3araht/chromatonemini/blob/main/pictures/Cushon_r01.jpg">
+<img width="700" alt="feet" src="https://github.com/3araht/chromatonemini/blob/main/pictures/Cushon_r02.jpg">
 
 #### お疲れ様でした。以上で chromatonemini キーボードの完成です！
