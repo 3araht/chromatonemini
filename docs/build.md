@@ -20,7 +20,7 @@ rev.02 では、以下が変更になっています
 ### キット付属品
 
 | パーツ名 |  個数  |  備考  |
-|--------|-------|-------|<br>
+|--------|-------|-------|
 |基板|1枚||
 |ボトムプレート|1枚||
 |M2 スペーサー |26個||
@@ -35,7 +35,7 @@ rev.02 では、以下が変更になっています
 ### 別途用意いただく必要のあるもの
 
 | パーツ名 |  個数  |  備考  |
-|--------|-------|--------|<br>
+|--------|-------|--------|
 |[Pro Micro （コンスルー付き）](https://yushakobo.jp/shop/promicro-spring-pinheader/)|1個|ファームウェア なし をお選びください（別途書き込みます）。|
 |キースイッチ(CherryMX 互換品)|115個|5pin タイプ推奨。音階キー111個＋操作ボタン4個用。|
 |MX対応キーキャップ|115個|1U。音階キー111個＋操作ボタン4個用。|
@@ -284,36 +284,15 @@ VIA に対応したファームウェア（[chromatonemini_via.hex](https://gith
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。<br>
 https://docs.qmk.fm/#/getting_started_build_tools
 
-chromatonemini の Firmware は以下にUPされるよう push request 中です(まだリンク切れ状態です)。<br>
-https://github.com/qmk/qmk_firmware/tree/main/keyboards/chromatonemini
-
-それまで、暫定的に[こちら](https://github.com/3araht/chromatonemini/blob/main/temp/qmk_firmware/keyboards/chromatonemini)のソースコードをお使いください。
+chromatonemini の Firmware は以下にUPされました。<br>
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/chromatonemini
 
 #### 8.2.1 ####
-#### 暫定的にUPしたソースの使い方 ####
+#### ソースの使い方 ####
 1. まず、qmk_firmware を clone してきます。
 https://github.com/qmk/qmk_firmware
 
-2. qmk_firmware/util/new_keyboard.sh を使って chromatonemini キーボード を新規登録します。以下のコマンドでスクリプトを実行します。<br>
-このコマンドは qmk_firmware フォルダで実行します。<br>
-```
-./util/new_keyboard.sh
-```
-下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでchromatonemini キーボードのフォルダが qmk_firmware/keyboards に出来上がります。<br>
-<img width="700" alt="new_keyboard" src="https://github.com/3araht/chromatonemini/blob/main/pictures/new_keyboard.png"><br>
-
-また、これにより、qmk_firmware フォルダで<br>
-
-```
-make chromatonemini:default
-```
-
-などのコンパイルも通るようになります。
-
-3. 暫定的に UP している[こちら](https://github.com/3araht/chromatonemini/blob/main/temp/qmk_firmware/keyboards/chromatonemini)のソースコードを qmk_firmware/keyboards/chromatonemini に上書き保存します。
-
-
-4. サスティン問題回避<br>
+2. サスティン問題回避<br>
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
 ~~対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。~~<br>
 2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。<br>
