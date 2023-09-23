@@ -3,49 +3,33 @@
     "vendorId": "0xFEED",
     "productId": "0xF4B4",
     "lighting": "none",
-    "matrix": { "rows": 6, "cols": 8 },
+    "matrix": {
+        "rows": 6,
+        "cols": 8
+    },
     "layouts": {
         "labels": [
-            "Sustain Pedal",
-            "Rotary Encoder"
+            "Sustain Pedal"
         ],
         "keymap": [
-            [
-                {
-                    "d": true
-                },
-                "1,7\n\n\n1,0",
-                {
-                    "d": true
-                },
-                "2,7\n\n\n1,0",
-                {
-                    "x": 1,
-                    "d": true
-                },
-                "0,7\n\n\n0,0",
-                {
-                    "x": 0.5
-                },
-                "1,7\n\n\n1,1",
-                "2,7\n\n\n1,1",
-                {
-                    "x": 1
-                },
-                "0,7\n\n\n0,1"
-            ],
             [
                 {
                     "x": 0.5,
                     "c": "#777777"
                 },
-                "0,0"
+                "0,0\n\n\n\n\n\n\n\n\ne0",
+                {
+                    "x": 1,
+                    "c": "#cccccc",
+                    "d": true
+                },
+                "0,7\n\n\n0,0",
+                "0,7\n\n\n0,1"
             ],
             [
                 {
                     "y": 0.5,
-                    "x": 0.5,
-                    "c": "#cccccc"
+                    "x": 0.5
                 },
                 "0,4"
             ],
